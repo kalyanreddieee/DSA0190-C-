@@ -1,9 +1,9 @@
-#include <iostream>
+ #include<iostream>
 using namespace std;
 int main() 
 {
     int num, originalNum, remainder, result = 0;
-    std::cout << "Enter a three-digit integer: ";
+    std::cout << "Enter a Number: ";
     std::cin >> num;
     originalNum = num;
     while (originalNum != 0) 
